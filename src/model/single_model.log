@@ -1,0 +1,21 @@
+2017-12-07 19:38:59,540 INFO 
+
+=========Running single models without Hoehn-Yahr index and updrs_3_scores features=========
+
+
+2017-12-07 19:39:15,896 INFO Best AUC score of Logistic Regression model: 0.93537069405
+2017-12-07 19:39:32,294 INFO Best AUC score of Logistic Regression model: 0.93537069405
+2017-12-07 19:39:32,439 INFO AUC of logistic regression on training data: 0.947215910717
+2017-12-07 19:39:32,439 INFO AUC of logistic regression on test data: 0.923940429072
+2017-12-07 19:46:52,207 INFO Best AUC score of Random Forest model: 0.935869923269
+2017-12-07 19:54:28,683 INFO Best AUC score of Random Forest model: 0.935869923269
+2017-12-07 19:54:30,069 INFO AUC of random forest on training data: 0.985173724022
+2017-12-07 19:54:30,070 INFO AUC of random forest on test data: 0.95418291386
+2017-12-07 19:57:31,914 INFO Best AUC score of SVC model: 0.93884010101
+2017-12-07 20:00:26,340 INFO Best AUC score of SVC model: 0.93884010101
+2017-12-07 20:00:26,600 INFO AUC of support vector classifier on training data: 0.970851978729
+2017-12-07 20:00:26,600 INFO AUC of support vector classifier on test data: 0.919000354484
+2017-12-07 20:03:10,770 INFO Best AUC score of Ada Boost model: 0.955125625244
+2017-12-07 20:05:54,123 INFO Best AUC score of Ada Boost model: 0.955125625244
+2017-12-07 20:05:55,108 INFO AUC of ada boost classifier on training data: 0.980902229985
+2017-12-07 20:05:55,108 INFO AUC of ada boost classifier on test data: 0.95262069309

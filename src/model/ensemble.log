@@ -1,0 +1,81 @@
+2017-12-07 20:06:14,190 INFO 
+
+=========Running ensemble model without Hoehn-Yahr index and updrs_3_scores features=========
+
+
+2017-12-07 20:13:46,928 INFO Best AUC score of Random Forest model: 0.935869923269
+2017-12-07 20:13:46,953 INFO Best parameters for random forest: {'min_samples_split': 2, 'n_estimators': 240, 'min_samples_leaf': 3}
+
+2017-12-07 20:16:31,290 INFO Best AUC score of Ada Boost model: 0.955125625244
+2017-12-07 20:16:31,954 INFO Best parameters for ada boost: {'n_estimators': 160, 'learning_rate': 0.7}
+
+2017-12-07 20:19:25,114 INFO Best AUC score of SVC model: 0.93884010101
+2017-12-07 20:19:25,689 INFO Best parameters for svc: {'kernel': 'linear', 'C': 1.0, 'coef0': 0.0, 'degree': 2}
+
+2017-12-07 20:19:41,282 INFO Best AUC score of Logistic Regression model: 0.93537069405
+2017-12-07 20:19:41,283 INFO Best parameters for logistic regression: {'penalty': 'l1', 'C': 1.0, 'tol': 0.0001, 'class_weight': None}
+
+2017-12-07 20:19:41,284 INFO Models for ensemble: ['Random Forest']
+
+2017-12-07 20:19:54,137 INFO Best AUC score of ensemble model: 0.945766640195
+2017-12-07 20:19:54,137 INFO Best parameters for ensemble: {'penalty': 'l1', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:19:55,830 INFO Models for ensemble: ['Ada Boost']
+
+2017-12-07 20:20:06,480 INFO Best AUC score of ensemble model: 0.952010448157
+2017-12-07 20:20:06,480 INFO Best parameters for ensemble: {'penalty': 'l1', 'C': 0.27825594022071259, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:20:07,560 INFO Models for ensemble: ['SVC']
+
+2017-12-07 20:20:14,203 INFO Best AUC score of ensemble model: 0.953544993507
+2017-12-07 20:20:14,226 INFO Best parameters for ensemble: {'penalty': 'l1', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:20:15,238 INFO Models for ensemble: ['Logistic Regression']
+
+2017-12-07 20:20:21,992 INFO Best AUC score of ensemble model: 0.94019761757
+2017-12-07 20:20:21,993 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:20:23,009 INFO Models for ensemble: ['Ada Boost', 'Random Forest']
+
+2017-12-07 20:20:40,659 INFO Best AUC score of ensemble model: 0.960386482445
+2017-12-07 20:20:40,659 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:20:41,760 INFO Models for ensemble: ['Random Forest', 'SVC']
+
+2017-12-07 20:20:55,585 INFO Best AUC score of ensemble model: 0.961330597107
+2017-12-07 20:20:55,585 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:20:56,666 INFO Models for ensemble: ['Random Forest', 'Logistic Regression']
+
+2017-12-07 20:21:10,435 INFO Best AUC score of ensemble model: 0.960826620732
+2017-12-07 20:21:10,435 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:21:11,515 INFO Models for ensemble: ['Ada Boost', 'SVC']
+
+2017-12-07 20:21:22,885 INFO Best AUC score of ensemble model: 0.966208484419
+2017-12-07 20:21:22,885 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:21:23,929 INFO Models for ensemble: ['Ada Boost', 'Logistic Regression']
+
+2017-12-07 20:21:35,335 INFO Best AUC score of ensemble model: 0.954601947529
+2017-12-07 20:21:35,335 INFO Best parameters for ensemble: {'penalty': 'l1', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:21:36,417 INFO Models for ensemble: ['SVC', 'Logistic Regression']
+
+2017-12-07 20:21:43,888 INFO Best AUC score of ensemble model: 0.949844085764
+2017-12-07 20:21:43,889 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:21:44,930 INFO Models for ensemble: ['Ada Boost', 'Random Forest', 'SVC']
+
+2017-12-07 20:22:03,438 INFO Best AUC score of ensemble model: 0.967158299809
+2017-12-07 20:22:03,439 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:22:04,646 INFO Models for ensemble: ['Ada Boost', 'Random Forest', 'Logistic Regression']
+
+2017-12-07 20:22:23,149 INFO Best AUC score of ensemble model: 0.959959070742
+2017-12-07 20:22:23,179 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:22:24,331 INFO Models for ensemble: ['Random Forest', 'Logistic Regression', 'SVC']
+
+2017-12-07 20:22:38,753 INFO Best AUC score of ensemble model: 0.960715268161
+2017-12-07 20:22:38,780 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:22:39,918 INFO Models for ensemble: ['Ada Boost', 'SVC', 'Logistic Regression']
+
+2017-12-07 20:22:52,259 INFO Best AUC score of ensemble model: 0.953037942018
+2017-12-07 20:22:52,259 INFO Best parameters for ensemble: {'penalty': 'l1', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:22:53,359 INFO Models for ensemble: ['Ada Boost', 'Random Forest', 'Logistic Regression', 'SVC']
+
+2017-12-07 20:23:12,880 INFO Best AUC score of ensemble model: 0.966579443613
+2017-12-07 20:23:12,927 INFO Best parameters for ensemble: {'penalty': 'l2', 'C': 1.0, 'tol': 0.001, 'class_weight': 'balanced'}
+2017-12-07 20:23:14,301 INFO Completed with 1020.11121607 seconds
+
+
+
